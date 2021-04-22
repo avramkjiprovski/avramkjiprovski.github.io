@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-top: 0;
 }
 .info li .first-block {
-  width: 40%;
+  width: 35%;
   display: inline-block;
   float: left;
   color: #000;
@@ -981,6 +981,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 50px 0;
   float: left;
   width: 100%;
+  color: #fff !important;
 }
 #fh5co-footer p:last-child {
   margin-bottom: 0;
