@@ -45,6 +45,24 @@ body {
   background: rgba(0, 0, 0, 0.7);
   content: "";
 }
+.dark-bg {
+  background: #FF9000;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.text-dim-white {
+  color:#f9e2c4 !important;
+}
+
+.dark-anchor {
+  color: black;
+}
+.dark-anchor:hover{
+  color: #754405;
+}
 
 a {
   color: #FF9000;
@@ -52,6 +70,7 @@ a {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
 a:hover, a:active, a:focus {
   color: #FF9000;
   outline: none;
@@ -408,6 +427,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-heading {
   margin-bottom: 5em;
 }
+
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
 }
@@ -415,7 +435,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 40px;
   margin-bottom: 20px;
   line-height: 1.5;
-  color: #000;
+  color: rgb(0, 0, 0);
 }
 .fh5co-heading p {
   font-size: 18px;
@@ -522,7 +542,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .timeline > li > .timeline-badge {
-  color: #fff;
+  color: #FF9000;
   width: 44px;
   height: 44px;
   line-height: 50px;
@@ -532,7 +552,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #FF9000;
+  background-color: #fff;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
